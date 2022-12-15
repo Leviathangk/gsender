@@ -1,2 +1,2 @@
-from send_mail import EmailSender
-from dingtalk import DingTalkSender
+from gsender.send_mail import EmailSender
+from gsender.dingtalk import DingTalkSender
