@@ -98,15 +98,11 @@ class DingTalkSender:
         # 处理消息体
         message.update(content)
 
-        print(message)
-
         # 发送消息
         try:
             resp = requests.post(self.url, params=self.sign, json=message)
-            logger.debug(f"【ding talk】：{resp.json()}")
 
             return resp.json()
-
         except Exception as e:
             logger.error(e)
 
