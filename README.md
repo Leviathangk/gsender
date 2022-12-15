@@ -1,6 +1,6 @@
 # galarm
 
-一个报警合集，有以下模块
+一个消息发送合集，有以下模块
 
 - EmailSender：邮件发送
 - DingTalkSender：钉钉群聊机器人
